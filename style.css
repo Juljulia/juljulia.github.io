@@ -1,6 +1,14 @@
 body {
+    display: flex;
+    flex-direction: column;
     background-color: whitesmoke;
     height: 100vh;
+}
+
+
+h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 100px;
 }
 
 .Portrait img {
