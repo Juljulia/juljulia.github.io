@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: whitesmoke;
     height: 100vh;
 }
@@ -8,16 +9,29 @@ body {
 h1{
     font-family: 'Comfortaa', cursive;
     font-size: 100px;
+    text-align: center;
 }
 
 .Portrait img {
-    width: 220px;
+    width: 320px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
 }
 
+.link-insta {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.link-facebook {
+    display: flex;
+    justify-content: flex-end;
+}
+
 a {
     font-family: 'Comfortaa', cursive;
-    font-size: 70px;
+    font-size: 60px;
+    color: black;
+    text-align: center;
 }
