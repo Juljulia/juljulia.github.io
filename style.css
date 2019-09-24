@@ -1,3 +1,11 @@
 body {
-    background-color: floralwhite;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.Portrait img {
+    width: 220px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
