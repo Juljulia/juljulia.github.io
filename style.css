@@ -1,37 +1,95 @@
 body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: whitesmoke;
-    height: 100vh;
-}
+    box-sizing: border-box;
+    font-family: Helvetica, "sans serif";
+    color: cornflowerblue;
+    margin: 0;
+  }
+  
+  .button {
+    background-color: red;
+    color: white;
+    padding: 25px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  button:hover {
 
-h1{
-    font-family: 'Comfortaa', cursive;
-    font-size: 100px;
+  }
+
+  
+  h1 {
+    margin: 20px;
+    font-size: 65px;
+  }
+  
+  h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 50px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+  }
+  
+  .text-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .about-me {
+    background-color: cornflowerblue;
+    padding: 150px 30px;
+    color: white;
     text-align: center;
-}
+  }
 
-.Portrait img {
-    width: 320px;
+  
+  .about-me img {
+    width: 220px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-}
+  }
 
-.link-insta {
-    display: flex;
-    justify-content: flex-start;
-}
+  @keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
 
-.link-facebook {
-    display: flex;
-    justify-content: flex-end;
-}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
 
-a {
-    font-family: 'Comfortaa', cursive;
-    font-size: 60px;
-    color: black;
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+  img:hover {
+      animation: bounce 1s; 
+
+  }
+  footer {
+    background-color ;
+    padding: 50px 300px;
     text-align: center;
-}
+  
+  }
+  
+  .contact img {
+    width: 80px;
+  
+  }
+  
