@@ -1,1 +1,3 @@
-[Julia Karlsson's github page]( https://juljulia.github.io)
+[Have a look on my portfolio]( https://juljulia.github.io)
+
+![](beginning.gif)
